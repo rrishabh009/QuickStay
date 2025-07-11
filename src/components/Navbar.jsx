@@ -25,7 +25,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
 
-    const {openSign} = useContext
+    const {openSignIn} = useClerk()
     const {user} = useUser()
     const navigate = useNavigate()
     const location = useLocation()
@@ -72,7 +72,7 @@ const Navbar = () => {
                       </UserButton.MenuItems>
                    </UserButton>)
                     :
-                   (<button onClick={openSign} className="bg-black text-white px-8 py-2.5 rounded-full ml-4 transition-all duration-500 ">
+                   (<button onClick={openSignIn} className="bg-black text-white px-8 py-2.5 rounded-full ml-4 transition-all duration-500 ">
                     Login
                  </button>)
                    }
@@ -114,7 +114,7 @@ const Navbar = () => {
                     Dashboard
                     </button>}
 
-                   {!user && <button onClick={openSign} className="bg-black text-white px-8 py-2.5 rounded-full transition-all duration-500 inline-block">
+                   {!user && <button onClick={openSignIn} className="bg-black text-white px-8 py-2.5 rounded-full transition-all duration-500 inline-block">
                         Login
                     </button>}
                 </div>

@@ -14,7 +14,7 @@ const HotelCard = ({room, index}) => {
 
 
 
-        <div className='p-4 pt-5'>
+        <div className='p-4 pt-5 '>
             <div className='flex items-center justify-between'>
                 <p className='font-playfair text-x1 font-medium text-gray-800'>{room.hotel.name} </p>
                 <div className='flex items-center gap-1'>
