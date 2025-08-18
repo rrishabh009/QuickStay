@@ -10,7 +10,7 @@ const Hero = () => {
     <p className='max-w-[130px] mt-2 text-sm md:text-base'>
       Unparalleled Luxury and comfort await at the world's most exclusive hotels and resorts. Start your journey today.
     </p>
-     <form className='bg-white text-gray-500 rounded-lg px-6 py-4 mt-8  flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto'>
+     <form className=' bg-white text-gray-500 rounded-lg px-6 py-4 mt-8  flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto'>
 
             <div>
                 <div className='flex items-center gap-2'>

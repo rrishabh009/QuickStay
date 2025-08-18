@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import { Route, Routes, useLocation,} from 'react-router-dom'
 import Home from './pages/Home';
 import Footer from './components/Footer';
+import AllRooms from './pages/AllRooms';
 
 // import Login from './pages/Login';
 
@@ -14,6 +15,7 @@ const App = () => {
       <div className='min-h-[70vh]'>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/rooms' element={<AllRooms/>}/>
           {/* <Route path='/login' element={<Login/>}/> */}
         </Routes>
       </div>
