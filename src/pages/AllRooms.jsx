@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom'
 import StartRating from '../components/StartRating'
 
 
+
+
 const CheckBox =({label, selected = false, onChange =()=> { }})=>{
      return(
       <label className='flex gap-3 items-center cursor-pointer mt-2 text-sm'>
@@ -45,7 +47,9 @@ const priceRange =[
 ];
 
 const  sortOptions =[
-
+       "Price Low To High",
+       "Price High To Low",
+       "Newest First"
 ]
 
   return (
